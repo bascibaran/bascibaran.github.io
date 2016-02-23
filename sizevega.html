@@ -3,7 +3,7 @@
 
 <head>
 	<title> Vega visualization of irods_db3 data_size!</title>
-	<script src="https://vega.github.io/vega-editor/vendor/d2.min.js"></script>
+	<script src="https://vega.github.io/vega-editor/vendor/d3.min.js"></script>
 	<script src="https://vega.github.io/vega/vega.min.js"></script>
 </head>
 
@@ -12,7 +12,7 @@
 
 //parse spec and create visualization
 function parse(spec) {
-	vg.parse.spec(spec, function(error,chart { chart({el:"#vis"}).update(); });
+	vg.parse.spec(spec, function(error,chart) { chart({el:"#vis"}).update(); });
 }
 
 parse("data/test.json");
