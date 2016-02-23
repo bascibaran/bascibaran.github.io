@@ -1,0 +1,14 @@
+{
+		"width": 1000,
+		"height": 500,
+		"padding": {"top": 10, "left": 30, "botton":20, "right": 10,
+
+		"data": [
+				{
+						"name": "ds_hist",
+					   	"format":"csv",
+					   	"url": "data/cat_data.csv"
+
+				}
+		]
+}

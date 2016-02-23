@@ -16,7 +16,7 @@ function parse(spec) {
 	vg.parse.spec(spec, function(error,chart) { chart({el:"#vis"}).update(); });
 }
 
-parse("data/ds_hist.json");
+parse("data/test.json");
 
 </script>
 </html>
