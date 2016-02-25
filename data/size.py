@@ -22,7 +22,7 @@ mean = sizeVec.mean()
 median = sizeVec.median()
 
 # write sizevec file for vega visualisation....
-np.savetext("sizevec.csv", sizeVec);
+np.savetxt("sizevec.csv", sizeVec);
 
 
 #print("plotting")
