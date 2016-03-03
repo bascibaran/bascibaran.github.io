@@ -22,6 +22,7 @@ mean = sizeVec.mean()
 median = sizeVec.median()
 
 # write sizevec file for vega visualisation....
+print("writing sizevector to csv...")
 np.savetxt("sizevec.csv", sizeVec);
 
 
@@ -36,5 +37,5 @@ np.savetxt("sizevec.csv", sizeVec);
 #plt.xlabel("data size (bytes)")
 #plt.ylabel("frequency")
 #plt.title("histogram of data size of data on irods-db3 (200 bins)")
-#print("saving plot as png file")
-#plt.savefig("datasizehist.png", bbox_inches='tight')
+print("saving plot as png file")
+plt.savefig("datasizehist.png", bbox_inches='tight')
